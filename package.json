@@ -1,0 +1,36 @@
+{
+  "name": "notejam",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node www"
+  },
+  "dependencies": {
+    "async": "*",
+    "bcrypt": "*",
+    "body-parser": "^1.19.0",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.1",
+    "express": "^4.2.0",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.9.2",
+    "jade": "^0.29.0",
+    "mime-db": "^1.45.0",
+    "mocha": "^8.2.1",
+    "moment": "*",
+    "morgan": "^1.10.0",
+    "nodemailer": "*",
+    "nodemailer-stub-transport": "*",
+    "npm": "^7.5.3",
+    "orm": "^5.0.5",
+    "passport": "0.2.1",
+    "passport-local": "1.0.0",
+    "should": "*",
+    "should-http": "*",
+    "sqlite3": "4.1.1",
+    "static-favicon": "~1.0.0",
+    "superagent": "*",
+    "supertest": "^6.1.3"
+  }
+}
