@@ -19,7 +19,7 @@ jobs:
     - name: Set up Node.js version
       uses: actions/setup-node@v1
       with:
-        node-version: '12.x'
+        node-version: '14.x'
 
     - name: npm install, build, and test
       run: |
@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'NoteJam-Bhanu'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4da4f5d8de8d4d618d39ae32c1a69e57 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_59af64c1818347b486a2ae8c0f7b3eec }}
         package: .
